@@ -30,8 +30,6 @@ def random_col(board):
 ship_row = random_row(board)
 ship_col = random_col(board)
 
-# Everything from here on should be in your for loop
-# don't forget to properly indent!
 a = "Turn: "
 turn = 0
 for turn in range(0,8):
@@ -84,4 +82,4 @@ for turn in range(0,8):
   if turn == 7:
     print
     print "Game Over :("
-    # print turn + 1 here
+
